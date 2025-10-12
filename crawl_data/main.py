@@ -8,7 +8,7 @@ from weather_utils import (
     compare_weather_locations,
     print_weather_comparison
 )
-from typing import List, Dict, Any
+from typing import List, Dict, An
 
 
 def get_weather_for_location(api: WeatherAPI, latitude: float, longitude: float, 
