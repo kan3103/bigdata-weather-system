@@ -29,7 +29,6 @@
 
 1.  `cd` vào thư mục `crawl_data`:
     ```bash
-    cd ..
     cd crawl_data
     ```
 2.  Cài đặt các thư viện cần thiết:
