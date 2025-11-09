@@ -209,4 +209,7 @@ __marimo__/
 #Data
 *.sqlite
 *.csv
+
+prediction/datasets/data_out/*
+!prediction/datasets/data_out/.keep
 crawl_data/location.json
