@@ -3,3 +3,4 @@ requests-cache
 retry-requests
 numpy
 pandas
+kafka-python
