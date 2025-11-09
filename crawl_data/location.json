@@ -1,0 +1,27 @@
+[
+  {
+    "name": "HCM_Q1",
+    "latitude": 10.7769,
+    "longitude": 106.7009
+  },
+  {
+    "name": "HCM_Q3",
+    "latitude": 10.7831,
+    "longitude": 106.6875
+  },
+  {
+    "name": "HCM_BINHTHANH",
+    "latitude": 10.8015,
+    "longitude": 106.7077
+  },
+  {
+    "name": "HANOI_HK",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "name": "DANANG",
+    "latitude": 16.0544,
+    "longitude": 108.2022
+  }
+]
