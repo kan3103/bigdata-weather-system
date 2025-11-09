@@ -209,3 +209,4 @@ __marimo__/
 #Data
 *.sqlite
 *.csv
+crawl_data/location.json

@@ -18,5 +18,10 @@
     "name": "HANOI_HK",
     "latitude": 21.0285,
     "longitude": 105.8542
+  },
+  {
+    "name": "DANANG",
+    "latitude": 16.0544,
+    "longitude": 108.2022
   }
 ]

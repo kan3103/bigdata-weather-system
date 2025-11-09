@@ -17,7 +17,7 @@
 
 ## Bước 2: Tạo Topic (Chỉ làm 1 lần)
 
-1.  Vẫn ở thư mục `set_up_kafka`, chạy lệnh sau để tạo topic `du_lieu_khu_vuc`:
+1.  Vẫn ở thư mục gốc, chạy lệnh sau để tạo topic `du_lieu_khu_vuc`:
     ```bash
     docker-compose exec kafka kafka-topics --create --topic du_lieu_khu_vuc --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
     ```
@@ -64,6 +64,6 @@ Sau khi `producer.py` đã chạy, bạn có 2 cách để xem dữ liệu:
 1.  Mở một **terminal mới** ở file tổng.
 2.  Chạy lệnh này:
     ```bash
-    docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic du_lieu_khu_vuc
+    docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic du_lieu_khu_vuc --from-beginning
     ```
 3.  Terminal này sẽ "lắng nghe" và in ra bất kỳ tin nhắn JSON *mới* nào được gửi đến.

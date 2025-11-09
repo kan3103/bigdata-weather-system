@@ -1,6 +1,7 @@
 import json
 import time
 from kafka import KafkaProducer
+from kafka.errors import KafkaTimeoutError
 
 from weatherAPI import WeatherAPI
 from main import get_weather_for_multiple_locations
@@ -35,7 +36,7 @@ def send_data_to_kafka(producer, topic, data):
     """Gửi một bản ghi (data) đến Kafka topic"""
     try:
         key_bytes = data['location_name'].encode('utf-8')
-        producer.send(topic,key=key_bytes, value=data)
+        producer.send(topic, key=key_bytes, value=data)
         location_name = data.get("location_name", "Unknown")
         print(f"Đã gửi thành công dữ liệu cho: {location_name}")
     except Exception as e:
