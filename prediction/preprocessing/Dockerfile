@@ -1,5 +1,3 @@
-# weather_project/spark_app/Dockerfile
-
 FROM apache/spark:4.1.0-preview3-scala2.13-java21-python3-ubuntu
 USER root
 

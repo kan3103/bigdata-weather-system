@@ -65,6 +65,5 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--features", required=True)
     parser.add_argument("--window-size", type=int, default=24)
-    parser.add_argument("--shard-size", type=int, default=20000)
     args = parser.parse_args()
     main(args)
