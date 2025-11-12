@@ -19,7 +19,7 @@
 
 1.  Vẫn ở thư mục gốc, chạy lệnh sau để tạo topic `du_lieu_khu_vuc`:
     ```bash
-    docker-compose exec kafka kafka-topics --create --topic du_lieu_khu_vuc --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+    docker-compose exec kafka kafka-topics --create --topic du_lieu_khu_vuc --bootstrap-server localhost:9092 --replication-factor 1 --partitions 8
     ```
     *(**Ghi chú:** `--partitions 1` do hiện tại cần ít thôi, trong tương lai mở rộng ra thì sẽ thêm partition còn giờ hơi tốn RAM )*
 

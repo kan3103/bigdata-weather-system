@@ -1,0 +1,1525 @@
+{
+  "Thành phố Hồ Chí Minh": {
+    "name": "Thành phố Hồ Chí Minh",
+    "code": 79,
+    "division_type": "thành phố trung ương",
+    "codename": "ho_chi_minh",
+    "phone_code": 28,
+    "wards": [
+      {
+        "name": "Phường Thủ Dầu Một",
+        "code": 25747,
+        "division_type": "phường",
+        "codename": "phuong_thu_dau_mot",
+        "province_code": 79,
+        "lat": 10.9686364,
+        "lon": 106.6640302
+      },
+      {
+        "name": "Phường Phú Lợi",
+        "code": 25750,
+        "division_type": "phường",
+        "codename": "phuong_phu_loi",
+        "province_code": 79,
+        "lat": 10.9877112,
+        "lon": 106.6805845
+      },
+      {
+        "name": "Phường Bình Dương",
+        "code": 25760,
+        "division_type": "phường",
+        "codename": "phuong_binh_duong",
+        "province_code": 79,
+        "lat": 11.0525935,
+        "lon": 106.6891287
+      },
+      {
+        "name": "Phường Phú An",
+        "code": 25768,
+        "division_type": "phường",
+        "codename": "phuong_phu_an",
+        "province_code": 79,
+        "lat": 11.0486457,
+        "lon": 106.6020209
+      },
+      {
+        "name": "Phường Chánh Hiệp",
+        "code": 25771,
+        "division_type": "phường",
+        "codename": "phuong_chanh_hiep",
+        "province_code": 79,
+        "lat": 11.0186207,
+        "lon": 106.64171
+      },
+      {
+        "name": "Xã Dầu Tiếng",
+        "code": 25777,
+        "division_type": "xã",
+        "codename": "xa_dau_tieng",
+        "province_code": 79,
+        "lat": 11.3307682,
+        "lon": 106.4030265
+      },
+      {
+        "name": "Xã Minh Thạnh",
+        "code": 25780,
+        "division_type": "xã",
+        "codename": "xa_minh_thanh",
+        "province_code": 79,
+        "lat": 11.4438332,
+        "lon": 106.4655524
+      },
+      {
+        "name": "Xã Long Hòa",
+        "code": 25792,
+        "division_type": "xã",
+        "codename": "xa_long_hoa",
+        "province_code": 79,
+        "lat": 11.3274937,
+        "lon": 106.5090895
+      },
+      {
+        "name": "Xã Thanh An",
+        "code": 25807,
+        "division_type": "xã",
+        "codename": "xa_thanh_an",
+        "province_code": 79,
+        "lat": 11.2479372,
+        "lon": 106.4314551
+      },
+      {
+        "name": "Phường Bến Cát",
+        "code": 25813,
+        "division_type": "phường",
+        "codename": "phuong_ben_cat",
+        "province_code": 79,
+        "lat": 11.2043317,
+        "lon": 106.6154659
+      },
+      {
+        "name": "Xã Trừ Văn Thố",
+        "code": 25819,
+        "division_type": "xã",
+        "codename": "xa_tru_van_tho",
+        "province_code": 79,
+        "lat": 11.3399962,
+        "lon": 106.5929507
+      },
+      {
+        "name": "Xã Bàu Bàng",
+        "code": 25822,
+        "division_type": "xã",
+        "codename": "xa_bau_bang",
+        "province_code": 79,
+        "lat": 11.2734666,
+        "lon": 106.6057271
+      },
+      {
+        "name": "Phường Chánh Phú Hòa",
+        "code": 25837,
+        "division_type": "phường",
+        "codename": "phuong_chanh_phu_hoa",
+        "province_code": 79,
+        "lat": 11.1882823,
+        "lon": 106.6687875
+      },
+      {
+        "name": "Phường Long Nguyên",
+        "code": 25840,
+        "division_type": "phường",
+        "codename": "phuong_long_nguyen",
+        "province_code": 79,
+        "lat": 11.1680146,
+        "lon": 106.5619764
+      },
+      {
+        "name": "Phường Tây Nam",
+        "code": 25843,
+        "division_type": "phường",
+        "codename": "phuong_tay_nam",
+        "province_code": 79,
+        "lat": 11.131335,
+        "lon": 106.5313116
+      },
+      {
+        "name": "Phường Thới Hòa",
+        "code": 25846,
+        "division_type": "phường",
+        "codename": "phuong_thoi_hoa",
+        "province_code": 79,
+        "lat": 11.1038232,
+        "lon": 106.6272696
+      },
+      {
+        "name": "Phường Hòa Lợi",
+        "code": 25849,
+        "division_type": "phường",
+        "codename": "phuong_hoa_loi",
+        "province_code": 79,
+        "lat": 11.0829247,
+        "lon": 106.6559116
+      },
+      {
+        "name": "Xã Phú Giáo",
+        "code": 25858,
+        "division_type": "xã",
+        "codename": "xa_phu_giao",
+        "province_code": 79,
+        "lat": 11.3071441,
+        "lon": 106.8607982
+      },
+      {
+        "name": "Xã Phước Thành",
+        "code": 25864,
+        "division_type": "xã",
+        "codename": "xa_phuoc_thanh",
+        "province_code": 79,
+        "lat": 11.3851629,
+        "lon": 106.7515368
+      },
+      {
+        "name": "Xã An Long",
+        "code": 25867,
+        "division_type": "xã",
+        "codename": "xa_an_long",
+        "province_code": 79,
+        "lat": 11.3260136,
+        "lon": 106.6896139
+      },
+      {
+        "name": "Xã Phước Hòa",
+        "code": 25882,
+        "division_type": "xã",
+        "codename": "xa_phuoc_hoa",
+        "province_code": 79,
+        "lat": 11.2535365,
+        "lon": 106.7735395
+      },
+      {
+        "name": "Phường Tân Uyên",
+        "code": 25888,
+        "division_type": "phường",
+        "codename": "phuong_tan_uyen",
+        "province_code": 79,
+        "lat": 11.0914515,
+        "lon": 106.7990398
+      },
+      {
+        "name": "Phường Tân Khánh",
+        "code": 25891,
+        "division_type": "phường",
+        "codename": "phuong_tan_khanh",
+        "province_code": 79,
+        "lat": 10.999374,
+        "lon": 106.7406558
+      },
+      {
+        "name": "Xã Bắc Tân Uyên",
+        "code": 25906,
+        "division_type": "xã",
+        "codename": "xa_bac_tan_uyen",
+        "province_code": 79,
+        "lat": 11.1711104,
+        "lon": 106.8634945
+      },
+      {
+        "name": "Xã Thường Tân",
+        "code": 25909,
+        "division_type": "xã",
+        "codename": "xa_thuong_tan",
+        "province_code": 79,
+        "lat": 11.1048495,
+        "lon": 106.9194354
+      },
+      {
+        "name": "Phường Vĩnh Tân",
+        "code": 25912,
+        "division_type": "phường",
+        "codename": "phuong_vinh_tan",
+        "province_code": 79,
+        "lat": 11.1378977,
+        "lon": 106.6989786
+      },
+      {
+        "name": "Phường Bình Cơ",
+        "code": 25915,
+        "division_type": "phường",
+        "codename": "phuong_binh_co",
+        "province_code": 79,
+        "lat": 11.1524742,
+        "lon": 106.7438477
+      },
+      {
+        "name": "Phường Tân Hiệp",
+        "code": 25920,
+        "division_type": "phường",
+        "codename": "phuong_tan_hiep",
+        "province_code": 79,
+        "lat": 11.061716,
+        "lon": 106.7431668
+      },
+      {
+        "name": "Phường Dĩ An",
+        "code": 25942,
+        "division_type": "phường",
+        "codename": "phuong_di_an",
+        "province_code": 79,
+        "lat": 10.8975202,
+        "lon": 106.7542156
+      },
+      {
+        "name": "Phường Tân Đông Hiệp",
+        "code": 25945,
+        "division_type": "phường",
+        "codename": "phuong_tan_dong_hiep",
+        "province_code": 79,
+        "lat": 10.9437817,
+        "lon": 106.7594929
+      },
+      {
+        "name": "Phường Đông Hòa",
+        "code": 25951,
+        "division_type": "phường",
+        "codename": "phuong_dong_hoa",
+        "province_code": 79,
+        "lat": 10.8928487,
+        "lon": 106.79832
+      },
+      {
+        "name": "Phường Lái Thiêu",
+        "code": 25966,
+        "division_type": "phường",
+        "codename": "phuong_lai_thieu",
+        "province_code": 79,
+        "lat": 10.9045161,
+        "lon": 106.6999877
+      },
+      {
+        "name": "Phường Thuận Giao",
+        "code": 25969,
+        "division_type": "phường",
+        "codename": "phuong_thuan_giao",
+        "province_code": 79,
+        "lat": 10.9622528,
+        "lon": 106.7090419
+      },
+      {
+        "name": "Phường An Phú",
+        "code": 25975,
+        "division_type": "phường",
+        "codename": "phuong_an_phu",
+        "province_code": 79,
+        "lat": 10.9586655,
+        "lon": 106.737088
+      },
+      {
+        "name": "Phường Thuận An",
+        "code": 25978,
+        "division_type": "phường",
+        "codename": "phuong_thuan_an",
+        "province_code": 79,
+        "lat": 10.9423711,
+        "lon": 106.6837106
+      },
+      {
+        "name": "Phường Bình Hòa",
+        "code": 25987,
+        "division_type": "phường",
+        "codename": "phuong_binh_hoa",
+        "province_code": 79,
+        "lat": 10.905052,
+        "lon": 106.7274208
+      },
+      {
+        "name": "Phường Vũng Tàu",
+        "code": 26506,
+        "division_type": "phường",
+        "codename": "phuong_vung_tau",
+        "province_code": 79,
+        "lat": 10.3537998,
+        "lon": 107.0743635
+      },
+      {
+        "name": "Phường Tam Thắng",
+        "code": 26526,
+        "division_type": "phường",
+        "codename": "phuong_tam_thang",
+        "province_code": 79,
+        "lat": 10.3686942,
+        "lon": 107.1009025
+      },
+      {
+        "name": "Phường  Rạch Dừa",
+        "code": 26536,
+        "division_type": "phường",
+        "codename": "phuong_rach_dua",
+        "province_code": 79,
+        "lat": 10.3909975,
+        "lon": 107.1090865
+      },
+      {
+        "name": "Phường Phước Thắng",
+        "code": 26542,
+        "division_type": "phường",
+        "codename": "phuong_phuoc_thang",
+        "province_code": 79,
+        "lat": 10.4252072,
+        "lon": 107.1671096
+      },
+      {
+        "name": "Xã Long Sơn",
+        "code": 26545,
+        "division_type": "xã",
+        "codename": "xa_long_son",
+        "province_code": 79,
+        "lat": 10.4487271,
+        "lon": 107.1028066
+      },
+      {
+        "name": "Phường Bà Rịa",
+        "code": 26560,
+        "division_type": "phường",
+        "codename": "phuong_ba_ria",
+        "province_code": 79,
+        "lat": 10.4948224,
+        "lon": 107.1849886
+      },
+      {
+        "name": "Phường Long Hương",
+        "code": 26566,
+        "division_type": "phường",
+        "codename": "phuong_long_huong",
+        "province_code": 79,
+        "lat": 10.5070464,
+        "lon": 107.1476608
+      },
+      {
+        "name": "Phường Tam Long",
+        "code": 26572,
+        "division_type": "phường",
+        "codename": "phuong_tam_long",
+        "province_code": 79,
+        "lat": 10.5289996,
+        "lon": 107.2147604
+      },
+      {
+        "name": "Xã Ngãi Giao",
+        "code": 26575,
+        "division_type": "xã",
+        "codename": "xa_ngai_giao",
+        "province_code": 79,
+        "lat": 10.6471352,
+        "lon": 107.2457958
+      },
+      {
+        "name": "Xã Xuân Sơn",
+        "code": 26584,
+        "division_type": "xã",
+        "codename": "xa_xuan_son",
+        "province_code": 79,
+        "lat": 10.6172513,
+        "lon": 107.3324779
+      },
+      {
+        "name": "Xã Bình Giã",
+        "code": 26590,
+        "division_type": "xã",
+        "codename": "xa_binh_gia",
+        "province_code": 79,
+        "lat": 10.6791217,
+        "lon": 107.287064
+      },
+      {
+        "name": "Xã Châu Đức",
+        "code": 26596,
+        "division_type": "xã",
+        "codename": "xa_chau_duc",
+        "province_code": 79,
+        "lat": 10.7278326,
+        "lon": 107.2134175
+      },
+      {
+        "name": "Xã Kim Long",
+        "code": 26608,
+        "division_type": "xã",
+        "codename": "xa_kim_long",
+        "province_code": 79,
+        "lat": 10.6991979,
+        "lon": 107.2455432
+      },
+      {
+        "name": "Xã Nghĩa Thành",
+        "code": 26617,
+        "division_type": "xã",
+        "codename": "xa_nghia_thanh",
+        "province_code": 79,
+        "lat": 10.5832288,
+        "lon": 107.2636989
+      },
+      {
+        "name": "Xã Hồ Tràm",
+        "code": 26620,
+        "division_type": "xã",
+        "codename": "xa_ho_tram",
+        "province_code": 79,
+        "lat": 10.5250085,
+        "lon": 107.396897
+      },
+      {
+        "name": "Xã Xuyên Mộc",
+        "code": 26632,
+        "division_type": "xã",
+        "codename": "xa_xuyen_moc",
+        "province_code": 79,
+        "lat": 10.5498373,
+        "lon": 107.4597728
+      },
+      {
+        "name": "Xã Bàu Lâm",
+        "code": 26638,
+        "division_type": "xã",
+        "codename": "xa_bau_lam",
+        "province_code": 79,
+        "lat": 10.737198,
+        "lon": 107.4182504
+      },
+      {
+        "name": "Xã Hòa Hội",
+        "code": 26641,
+        "division_type": "xã",
+        "codename": "xa_hoa_hoi",
+        "province_code": 79,
+        "lat": 10.6267656,
+        "lon": 107.4259831
+      },
+      {
+        "name": "Xã Hòa Hiệp",
+        "code": 26647,
+        "division_type": "xã",
+        "codename": "xa_hoa_hiep",
+        "province_code": 79,
+        "lat": 10.7080104,
+        "lon": 107.4954911
+      },
+      {
+        "name": "Xã Bình Châu",
+        "code": 26656,
+        "division_type": "xã",
+        "codename": "xa_binh_chau",
+        "province_code": 79,
+        "lat": 10.5787466,
+        "lon": 107.5399664
+      },
+      {
+        "name": "Xã Long Điền",
+        "code": 26659,
+        "division_type": "xã",
+        "codename": "xa_long_dien",
+        "province_code": 79,
+        "lat": 10.4851113,
+        "lon": 107.2119218
+      },
+      {
+        "name": "Xã Long Hải",
+        "code": 26662,
+        "division_type": "xã",
+        "codename": "xa_long_hai",
+        "province_code": 79,
+        "lat": 10.4039451,
+        "lon": 107.2307547
+      },
+      {
+        "name": "Xã Đất Đỏ",
+        "code": 26680,
+        "division_type": "xã",
+        "codename": "xa_dat_do",
+        "province_code": 79,
+        "lat": 10.4899209,
+        "lon": 107.2696605
+      },
+      {
+        "name": "Xã Phước Hải",
+        "code": 26686,
+        "division_type": "xã",
+        "codename": "xa_phuoc_hai",
+        "province_code": 79,
+        "lat": 10.4257988,
+        "lon": 107.2921241
+      },
+      {
+        "name": "Phường Phú Mỹ",
+        "code": 26704,
+        "division_type": "phường",
+        "codename": "phuong_phu_my",
+        "province_code": 79,
+        "lat": 10.6019767,
+        "lon": 107.0521099
+      },
+      {
+        "name": "Phường Tân Hải",
+        "code": 26710,
+        "division_type": "phường",
+        "codename": "phuong_tan_hai",
+        "province_code": 79,
+        "lat": 10.5158702,
+        "lon": 107.1079712
+      },
+      {
+        "name": "Phường Tân Phước",
+        "code": 26713,
+        "division_type": "phường",
+        "codename": "phuong_tan_phuoc",
+        "province_code": 79,
+        "lat": 10.5280288,
+        "lon": 107.0532037
+      },
+      {
+        "name": "Phường Tân Thành",
+        "code": 26725,
+        "division_type": "phường",
+        "codename": "phuong_tan_thanh",
+        "province_code": 79,
+        "lat": 10.6657629,
+        "lon": 107.136983
+      },
+      {
+        "name": "Xã Châu Pha",
+        "code": 26728,
+        "division_type": "xã",
+        "codename": "xa_chau_pha",
+        "province_code": 79,
+        "lat": 10.5807114,
+        "lon": 107.1333808
+      },
+      {
+        "name": "Đặc khu Côn Đảo",
+        "code": 26732,
+        "division_type": "đặc khu",
+        "codename": "dac_khu_con_dao",
+        "province_code": 79,
+        "lat": 8.6855081,
+        "lon": 106.6067254
+      },
+      {
+        "name": "Phường Tân Định",
+        "code": 26737,
+        "division_type": "phường",
+        "codename": "phuong_tan_dinh",
+        "province_code": 79,
+        "lat": 10.790563,
+        "lon": 106.6944598
+      },
+      {
+        "name": "Phường Sài Gòn",
+        "code": 26740,
+        "division_type": "phường",
+        "codename": "phuong_sai_gon",
+        "province_code": 79,
+        "lat": 10.7791966,
+        "lon": 106.6999282
+      },
+      {
+        "name": "Phường Bến Thành",
+        "code": 26743,
+        "division_type": "phường",
+        "codename": "phuong_ben_thanh",
+        "province_code": 79,
+        "lat": 10.7703806,
+        "lon": 106.6951066
+      },
+      {
+        "name": "Phường Cầu Ông Lãnh",
+        "code": 26758,
+        "division_type": "phường",
+        "codename": "phuong_cau_ong_lanh",
+        "province_code": 79,
+        "lat": 10.7629746,
+        "lon": 106.6910898
+      },
+      {
+        "name": "Phường An Phú Đông",
+        "code": 26767,
+        "division_type": "phường",
+        "codename": "phuong_an_phu_dong",
+        "province_code": 79,
+        "lat": 10.8609713,
+        "lon": 106.6917863
+      },
+      {
+        "name": "Phường Thới An",
+        "code": 26773,
+        "division_type": "phường",
+        "codename": "phuong_thoi_an",
+        "province_code": 79,
+        "lat": 10.8788314,
+        "lon": 106.6634466
+      },
+      {
+        "name": "Phường Tân Thới Hiệp",
+        "code": 26782,
+        "division_type": "phường",
+        "codename": "phuong_tan_thoi_hiep",
+        "province_code": 79,
+        "lat": 10.8753839,
+        "lon": 106.641588
+      },
+      {
+        "name": "Phường Trung Mỹ Tây",
+        "code": 26785,
+        "division_type": "phường",
+        "codename": "phuong_trung_my_tay",
+        "province_code": 79,
+        "lat": 10.8603264,
+        "lon": 106.621309
+      },
+      {
+        "name": "Phường Đông Hưng Thuận",
+        "code": 26791,
+        "division_type": "phường",
+        "codename": "phuong_dong_hung_thuan",
+        "province_code": 79,
+        "lat": 10.8373502,
+        "lon": 106.6214158
+      },
+      {
+        "name": "Phường Linh Xuân",
+        "code": 26794,
+        "division_type": "phường",
+        "codename": "phuong_linh_xuan",
+        "province_code": 79,
+        "lat": 10.8670257,
+        "lon": 106.7814788
+      },
+      {
+        "name": "Phường Tam Bình",
+        "code": 26797,
+        "division_type": "phường",
+        "codename": "phuong_tam_binh",
+        "province_code": 79,
+        "lat": 10.8697749,
+        "lon": 106.7345736
+      },
+      {
+        "name": "Phường Hiệp Bình",
+        "code": 26812,
+        "division_type": "phường",
+        "codename": "phuong_hiep_binh",
+        "province_code": 79,
+        "lat": 10.8496138,
+        "lon": 106.7191368
+      },
+      {
+        "name": "Phường Thủ Đức",
+        "code": 26824,
+        "division_type": "phường",
+        "codename": "phuong_thu_duc",
+        "province_code": 79,
+        "lat": 10.840834,
+        "lon": 106.7583039
+      },
+      {
+        "name": "Phường Long Bình",
+        "code": 26833,
+        "division_type": "phường",
+        "codename": "phuong_long_binh",
+        "province_code": 79,
+        "lat": 10.8593853,
+        "lon": 106.8301514
+      },
+      {
+        "name": "Phường Tăng Nhơn Phú",
+        "code": 26842,
+        "division_type": "phường",
+        "codename": "phuong_tang_nhon_phu",
+        "province_code": 79,
+        "lat": 10.8446206,
+        "lon": 106.7868124
+      },
+      {
+        "name": "Phường Phước Long",
+        "code": 26848,
+        "division_type": "phường",
+        "codename": "phuong_phuoc_long",
+        "province_code": 79,
+        "lat": 10.8169928,
+        "lon": 106.7742368
+      },
+      {
+        "name": "Phường Long Phước",
+        "code": 26857,
+        "division_type": "phường",
+        "codename": "phuong_long_phuoc",
+        "province_code": 79,
+        "lat": 10.8124271,
+        "lon": 106.8542062
+      },
+      {
+        "name": "Phường Long Trường",
+        "code": 26860,
+        "division_type": "phường",
+        "codename": "phuong_long_truong",
+        "province_code": 79,
+        "lat": 10.793879,
+        "lon": 106.8127496
+      },
+      {
+        "name": "Phường An Hội Đông",
+        "code": 26878,
+        "division_type": "phường",
+        "codename": "phuong_an_hoi_dong",
+        "province_code": 79,
+        "lat": 10.8499216,
+        "lon": 106.665137
+      },
+      {
+        "name": "Phường An Hội Tây",
+        "code": 26882,
+        "division_type": "phường",
+        "codename": "phuong_an_hoi_tay",
+        "province_code": 79,
+        "lat": 10.8420405,
+        "lon": 106.6403664
+      },
+      {
+        "name": "Phường Gò Vấp",
+        "code": 26884,
+        "division_type": "phường",
+        "codename": "phuong_go_vap",
+        "province_code": 79,
+        "lat": 10.8381857,
+        "lon": 106.6752201
+      },
+      {
+        "name": "Phường  An Nhơn",
+        "code": 26887,
+        "division_type": "phường",
+        "codename": "phuong_an_nhon",
+        "province_code": 79,
+        "lat": 10.8360989,
+        "lon": 106.6854693
+      },
+      {
+        "name": "Phường Thông Tây Hội",
+        "code": 26899,
+        "division_type": "phường",
+        "codename": "phuong_thong_tay_hoi",
+        "province_code": 79,
+        "lat": 10.8420837,
+        "lon": 106.6542494
+      },
+      {
+        "name": "Phường Hạnh Thông",
+        "code": 26902,
+        "division_type": "phường",
+        "codename": "phuong_hanh_thong",
+        "province_code": 79,
+        "lat": 10.8202873,
+        "lon": 106.6832189
+      },
+      {
+        "name": "Phường Bình Lợi Trung",
+        "code": 26905,
+        "division_type": "phường",
+        "codename": "phuong_binh_loi_trung",
+        "province_code": 79,
+        "lat": 10.8225629,
+        "lon": 106.7027456
+      },
+      {
+        "name": "Phường Bình Quới",
+        "code": 26911,
+        "division_type": "phường",
+        "codename": "phuong_binh_quoi",
+        "province_code": 79,
+        "lat": 10.823128,
+        "lon": 106.7351397
+      },
+      {
+        "name": "Phường Bình Thạnh",
+        "code": 26929,
+        "division_type": "phường",
+        "codename": "phuong_binh_thanh",
+        "province_code": 79,
+        "lat": 10.808976,
+        "lon": 106.7069818
+      },
+      {
+        "name": "Phường Gia Định",
+        "code": 26944,
+        "division_type": "phường",
+        "codename": "phuong_gia_dinh",
+        "province_code": 79,
+        "lat": 10.8008668,
+        "lon": 106.6971226
+      },
+      {
+        "name": "Phường Thạnh Mỹ Tây",
+        "code": 26956,
+        "division_type": "phường",
+        "codename": "phuong_thanh_my_tay",
+        "province_code": 79,
+        "lat": 10.798645,
+        "lon": 106.7189727
+      },
+      {
+        "name": "Phường Tân Sơn Nhất",
+        "code": 26968,
+        "division_type": "phường",
+        "codename": "phuong_tan_son_nhat",
+        "province_code": 79,
+        "lat": 10.7979113,
+        "lon": 106.658574
+      },
+      {
+        "name": "Phường Tân Sơn Hòa",
+        "code": 26977,
+        "division_type": "phường",
+        "codename": "phuong_tan_son_hoa",
+        "province_code": 79,
+        "lat": 10.7971454,
+        "lon": 106.6646052
+      },
+      {
+        "name": "Phường Bảy Hiền",
+        "code": 26983,
+        "division_type": "phường",
+        "codename": "phuong_bay_hien",
+        "province_code": 79,
+        "lat": 10.79382,
+        "lon": 106.6489163
+      },
+      {
+        "name": "Phường Tân Hòa",
+        "code": 26995,
+        "division_type": "phường",
+        "codename": "phuong_tan_hoa",
+        "province_code": 79,
+        "lat": 10.7821154,
+        "lon": 106.6547199
+      },
+      {
+        "name": "Phường Tân Bình",
+        "code": 27004,
+        "division_type": "phường",
+        "codename": "phuong_tan_binh",
+        "province_code": 79,
+        "lat": 10.7991337,
+        "lon": 106.6414717
+      },
+      {
+        "name": "Phường Tân Sơn",
+        "code": 27007,
+        "division_type": "phường",
+        "codename": "phuong_tan_son",
+        "province_code": 79,
+        "lat": 10.8208443,
+        "lon": 106.6371457
+      },
+      {
+        "name": "Phường Tân Sơn Nhì",
+        "code": 27010,
+        "division_type": "phường",
+        "codename": "phuong_tan_son_nhi",
+        "province_code": 79,
+        "lat": 10.8013791,
+        "lon": 106.6246876
+      },
+      {
+        "name": "Phường Tây Thạnh",
+        "code": 27013,
+        "division_type": "phường",
+        "codename": "phuong_tay_thanh",
+        "province_code": 79,
+        "lat": 10.8138716,
+        "lon": 106.6199712
+      },
+      {
+        "name": "Phường Phú Thọ Hòa",
+        "code": 27022,
+        "division_type": "phường",
+        "codename": "phuong_phu_tho_hoa",
+        "province_code": 79,
+        "lat": 10.7892224,
+        "lon": 106.6271827
+      },
+      {
+        "name": "Phường Phú Thạnh",
+        "code": 27028,
+        "division_type": "phường",
+        "codename": "phuong_phu_thanh",
+        "province_code": 79,
+        "lat": 10.7720811,
+        "lon": 106.6268036
+      },
+      {
+        "name": "Phường Tân Phú",
+        "code": 27031,
+        "division_type": "phường",
+        "codename": "phuong_tan_phu",
+        "province_code": 79,
+        "lat": 10.7774899,
+        "lon": 106.6395211
+      },
+      {
+        "name": "Phường Đức Nhuận",
+        "code": 27043,
+        "division_type": "phường",
+        "codename": "phuong_duc_nhuan",
+        "province_code": 79,
+        "lat": 10.8056416,
+        "lon": 106.6784848
+      },
+      {
+        "name": "Phường Cầu Kiệu",
+        "code": 27058,
+        "division_type": "phường",
+        "codename": "phuong_cau_kieu",
+        "province_code": 79,
+        "lat": 10.7990135,
+        "lon": 106.6853524
+      },
+      {
+        "name": "Phường Phú Nhuận",
+        "code": 27073,
+        "division_type": "phường",
+        "codename": "phuong_phu_nhuan",
+        "province_code": 79,
+        "lat": 10.7934084,
+        "lon": 106.6732121
+      },
+      {
+        "name": "Phường Bình Trưng",
+        "code": 27097,
+        "division_type": "phường",
+        "codename": "phuong_binh_trung",
+        "province_code": 79,
+        "lat": 10.7965919,
+        "lon": 106.7642319
+      },
+      {
+        "name": "Phường Cát Lái",
+        "code": 27112,
+        "division_type": "phường",
+        "codename": "phuong_cat_lai",
+        "province_code": 79,
+        "lat": 10.7684731,
+        "lon": 106.7704233
+      },
+      {
+        "name": "Phường An Khánh",
+        "code": 27118,
+        "division_type": "phường",
+        "codename": "phuong_an_khanh",
+        "province_code": 79,
+        "lat": 10.7886645,
+        "lon": 106.730302
+      },
+      {
+        "name": "Phường Xuân Hòa",
+        "code": 27139,
+        "division_type": "phường",
+        "codename": "phuong_xuan_hoa",
+        "province_code": 79,
+        "lat": 10.7825113,
+        "lon": 106.6895281
+      },
+      {
+        "name": "Phường Nhiêu Lộc",
+        "code": 27142,
+        "division_type": "phường",
+        "codename": "phuong_nhieu_loc",
+        "province_code": 79,
+        "lat": 10.7856371,
+        "lon": 106.6750721
+      },
+      {
+        "name": "Phường Bàn Cờ",
+        "code": 27160,
+        "division_type": "phường",
+        "codename": "phuong_ban_co",
+        "province_code": 79,
+        "lat": 10.7711767,
+        "lon": 106.683061
+      },
+      {
+        "name": "Phường Hòa Hưng",
+        "code": 27163,
+        "division_type": "phường",
+        "codename": "phuong_hoa_hung",
+        "province_code": 79,
+        "lat": 10.7768505,
+        "lon": 106.6705509
+      },
+      {
+        "name": "Phường Diên Hồng",
+        "code": 27169,
+        "division_type": "phường",
+        "codename": "phuong_dien_hong",
+        "province_code": 79,
+        "lat": 10.7699844,
+        "lon": 106.6618762
+      },
+      {
+        "name": "Phường Vườn Lài",
+        "code": 27190,
+        "division_type": "phường",
+        "codename": "phuong_vuon_lai",
+        "province_code": 79,
+        "lat": 10.765753,
+        "lon": 106.6729198
+      },
+      {
+        "name": "Phường Hòa Bình",
+        "code": 27211,
+        "division_type": "phường",
+        "codename": "phuong_hoa_binh",
+        "province_code": 79,
+        "lat": 10.769777,
+        "lon": 106.6443804
+      },
+      {
+        "name": "Phường Phú Thọ",
+        "code": 27226,
+        "division_type": "phường",
+        "codename": "phuong_phu_tho",
+        "province_code": 79,
+        "lat": 10.7658696,
+        "lon": 106.6546226
+      },
+      {
+        "name": "Phường Bình Thới",
+        "code": 27232,
+        "division_type": "phường",
+        "codename": "phuong_binh_thoi",
+        "province_code": 79,
+        "lat": 10.7629692,
+        "lon": 106.6423264
+      },
+      {
+        "name": "Phường Minh Phụng",
+        "code": 27238,
+        "division_type": "phường",
+        "codename": "phuong_minh_phung",
+        "province_code": 79,
+        "lat": 10.7566993,
+        "lon": 106.6465801
+      },
+      {
+        "name": "Phường Xóm Chiếu",
+        "code": 27259,
+        "division_type": "phường",
+        "codename": "phuong_xom_chieu",
+        "province_code": 79,
+        "lat": 10.7603865,
+        "lon": 106.7117133
+      },
+      {
+        "name": "Phường Khánh Hội",
+        "code": 27265,
+        "division_type": "phường",
+        "codename": "phuong_khanh_hoi",
+        "province_code": 79,
+        "lat": 10.7592587,
+        "lon": 106.7044652
+      },
+      {
+        "name": "Phường Vĩnh Hội",
+        "code": 27286,
+        "division_type": "phường",
+        "codename": "phuong_vinh_hoi",
+        "province_code": 79,
+        "lat": 10.7558328,
+        "lon": 106.6955128
+      },
+      {
+        "name": "Phường Chợ Quán",
+        "code": 27301,
+        "division_type": "phường",
+        "codename": "phuong_cho_quan",
+        "province_code": 79,
+        "lat": 10.7581094,
+        "lon": 106.6807105
+      },
+      {
+        "name": "Phường An Đông",
+        "code": 27316,
+        "division_type": "phường",
+        "codename": "phuong_an_dong",
+        "province_code": 79,
+        "lat": 10.7548937,
+        "lon": 106.6716249
+      },
+      {
+        "name": "Phường Chợ Lớn",
+        "code": 27343,
+        "division_type": "phường",
+        "codename": "phuong_cho_lon",
+        "province_code": 79,
+        "lat": 10.7518172,
+        "lon": 106.658971
+      },
+      {
+        "name": "Phường Phú Lâm",
+        "code": 27349,
+        "division_type": "phường",
+        "codename": "phuong_phu_lam",
+        "province_code": 79,
+        "lat": 10.7538527,
+        "lon": 106.6314752
+      },
+      {
+        "name": "Phường Bình Tây",
+        "code": 27367,
+        "division_type": "phường",
+        "codename": "phuong_binh_tay",
+        "province_code": 79,
+        "lat": 10.7494898,
+        "lon": 106.6475693
+      },
+      {
+        "name": "Phường Bình Tiên",
+        "code": 27373,
+        "division_type": "phường",
+        "codename": "phuong_binh_tien",
+        "province_code": 79,
+        "lat": 10.7429821,
+        "lon": 106.6433709
+      },
+      {
+        "name": "Phường Bình Phú",
+        "code": 27385,
+        "division_type": "phường",
+        "codename": "phuong_binh_phu",
+        "province_code": 79,
+        "lat": 10.7385058,
+        "lon": 106.6274357
+      },
+      {
+        "name": "Phường Chánh Hưng",
+        "code": 27418,
+        "division_type": "phường",
+        "codename": "phuong_chanh_hung",
+        "province_code": 79,
+        "lat": 10.7423849,
+        "lon": 106.6779544
+      },
+      {
+        "name": "Phường Bình Đông",
+        "code": 27424,
+        "division_type": "phường",
+        "codename": "phuong_binh_dong",
+        "province_code": 79,
+        "lat": 10.7283105,
+        "lon": 106.6379651
+      },
+      {
+        "name": "Phường Phú Định",
+        "code": 27427,
+        "division_type": "phường",
+        "codename": "phuong_phu_dinh",
+        "province_code": 79,
+        "lat": 10.724618,
+        "lon": 106.6298796
+      },
+      {
+        "name": "Phường Bình Hưng Hòa",
+        "code": 27439,
+        "division_type": "phường",
+        "codename": "phuong_binh_hung_hoa",
+        "province_code": 79,
+        "lat": 10.7980714,
+        "lon": 106.60323
+      },
+      {
+        "name": "Phường Bình Tân",
+        "code": 27442,
+        "division_type": "phường",
+        "codename": "phuong_binh_tan",
+        "province_code": 79,
+        "lat": 10.79868,
+        "lon": 106.5907696
+      },
+      {
+        "name": "Phường Bình Trị Đông",
+        "code": 27448,
+        "division_type": "phường",
+        "codename": "phuong_binh_tri_dong",
+        "province_code": 79,
+        "lat": 10.7673774,
+        "lon": 106.607458
+      },
+      {
+        "name": "Phường Tân Tạo",
+        "code": 27457,
+        "division_type": "phường",
+        "codename": "phuong_tan_tao",
+        "province_code": 79,
+        "lat": 10.747748,
+        "lon": 106.5860503
+      },
+      {
+        "name": "Phường An Lạc",
+        "code": 27460,
+        "division_type": "phường",
+        "codename": "phuong_an_lac",
+        "province_code": 79,
+        "lat": 10.7381994,
+        "lon": 106.6148874
+      },
+      {
+        "name": "Phường Tân Hưng",
+        "code": 27475,
+        "division_type": "phường",
+        "codename": "phuong_tan_hung",
+        "province_code": 79,
+        "lat": 10.7394166,
+        "lon": 106.7038732
+      },
+      {
+        "name": "Phường Tân Thuận",
+        "code": 27478,
+        "division_type": "phường",
+        "codename": "phuong_tan_thuan",
+        "province_code": 79,
+        "lat": 10.7504259,
+        "lon": 106.7315099
+      },
+      {
+        "name": "Phường Phú Thuận",
+        "code": 27484,
+        "division_type": "phường",
+        "codename": "phuong_phu_thuan",
+        "province_code": 79,
+        "lat": 10.7238594,
+        "lon": 106.7444926
+      },
+      {
+        "name": "Phường Tân Mỹ",
+        "code": 27487,
+        "division_type": "phường",
+        "codename": "phuong_tan_my",
+        "province_code": 79,
+        "lat": 10.722503,
+        "lon": 106.7283083
+      },
+      {
+        "name": "Xã Tân An Hội",
+        "code": 27496,
+        "division_type": "xã",
+        "codename": "xa_tan_an_hoi",
+        "province_code": 79,
+        "lat": 10.970179,
+        "lon": 106.4637699
+      },
+      {
+        "name": "Xã An Nhơn Tây",
+        "code": 27508,
+        "division_type": "xã",
+        "codename": "xa_an_nhon_tay",
+        "province_code": 79,
+        "lat": 11.101795,
+        "lon": 106.4813178
+      },
+      {
+        "name": "Xã Nhuận Đức",
+        "code": 27511,
+        "division_type": "xã",
+        "codename": "xa_nhuan_duc",
+        "province_code": 79,
+        "lat": 11.0295786,
+        "lon": 106.4986658
+      },
+      {
+        "name": "Xã Thái Mỹ",
+        "code": 27526,
+        "division_type": "xã",
+        "codename": "xa_thai_my",
+        "province_code": 79,
+        "lat": 11.03753,
+        "lon": 106.4353672
+      },
+      {
+        "name": "Xã Phú Hòa Đông",
+        "code": 27541,
+        "division_type": "xã",
+        "codename": "xa_phu_hoa_dong",
+        "province_code": 79,
+        "lat": 10.9887911,
+        "lon": 106.5562008
+      },
+      {
+        "name": "Xã Bình Mỹ",
+        "code": 27544,
+        "division_type": "xã",
+        "codename": "xa_binh_my",
+        "province_code": 79,
+        "lat": 10.9801665,
+        "lon": 106.6101461
+      },
+      {
+        "name": "Xã Củ Chi",
+        "code": 27553,
+        "division_type": "xã",
+        "codename": "xa_cu_chi",
+        "province_code": 79,
+        "lat": 10.9617664,
+        "lon": 106.5335564
+      },
+      {
+        "name": "Xã Hóc Môn",
+        "code": 27559,
+        "division_type": "xã",
+        "codename": "xa_hoc_mon",
+        "province_code": 79,
+        "lat": 10.8860463,
+        "lon": 106.5927134
+      },
+      {
+        "name": "Xã Đông Thạnh",
+        "code": 27568,
+        "division_type": "xã",
+        "codename": "xa_dong_thanh",
+        "province_code": 79,
+        "lat": 10.8981946,
+        "lon": 106.6361448
+      },
+      {
+        "name": "Xã Xuân Thới Sơn",
+        "code": 27577,
+        "division_type": "xã",
+        "codename": "xa_xuan_thoi_son",
+        "province_code": 79,
+        "lat": 10.887924,
+        "lon": 106.5569321
+      },
+      {
+        "name": "Xã Bà Điểm",
+        "code": 27592,
+        "division_type": "xã",
+        "codename": "xa_ba_diem",
+        "province_code": 79,
+        "lat": 10.8402684,
+        "lon": 106.5990908
+      },
+      {
+        "name": "Xã Tân Nhựt",
+        "code": 27595,
+        "division_type": "xã",
+        "codename": "xa_tan_nhut",
+        "province_code": 79,
+        "lat": 10.7079037,
+        "lon": 106.5675867
+      },
+      {
+        "name": "Xã Vĩnh Lộc",
+        "code": 27601,
+        "division_type": "xã",
+        "codename": "xa_vinh_loc",
+        "province_code": 79,
+        "lat": 10.8265123,
+        "lon": 106.5518034
+      },
+      {
+        "name": "Xã Tân Vĩnh Lộc",
+        "code": 27604,
+        "division_type": "xã",
+        "codename": "xa_tan_vinh_loc",
+        "province_code": 79,
+        "lat": 10.7908707,
+        "lon": 106.5447791
+      },
+      {
+        "name": "Xã Bình Lợi",
+        "code": 27610,
+        "division_type": "xã",
+        "codename": "xa_binh_loi",
+        "province_code": 79,
+        "lat": 10.7533121,
+        "lon": 106.5131428
+      },
+      {
+        "name": "Xã Bình Hưng",
+        "code": 27619,
+        "division_type": "xã",
+        "codename": "xa_binh_hung",
+        "province_code": 79,
+        "lat": 10.705303,
+        "lon": 106.6525639
+      },
+      {
+        "name": "Xã Hưng Long",
+        "code": 27628,
+        "division_type": "xã",
+        "codename": "xa_hung_long",
+        "province_code": 79,
+        "lat": 10.6591544,
+        "lon": 106.645572
+      },
+      {
+        "name": "Xã Bình Chánh",
+        "code": 27637,
+        "division_type": "xã",
+        "codename": "xa_binh_chanh",
+        "province_code": 79,
+        "lat": 10.6638681,
+        "lon": 106.5703407
+      },
+      {
+        "name": "Xã Nhà Bè",
+        "code": 27655,
+        "division_type": "xã",
+        "codename": "xa_nha_be",
+        "province_code": 79,
+        "lat": 10.695397,
+        "lon": 106.7148191
+      },
+      {
+        "name": "Xã Hiệp Phước",
+        "code": 27658,
+        "division_type": "xã",
+        "codename": "xa_hiep_phuoc",
+        "province_code": 79,
+        "lat": 10.6351242,
+        "lon": 106.7510876
+      },
+      {
+        "name": "Xã Cần Giờ",
+        "code": 27664,
+        "division_type": "xã",
+        "codename": "xa_can_gio",
+        "province_code": 79,
+        "lat": 10.4147541,
+        "lon": 106.9714754
+      },
+      {
+        "name": "Xã Bình Khánh",
+        "code": 27667,
+        "division_type": "xã",
+        "codename": "xa_binh_khanh",
+        "province_code": 79,
+        "lat": 10.5958922,
+        "lon": 106.8790677
+      },
+      {
+        "name": "Xã An Thới Đông",
+        "code": 27673,
+        "division_type": "xã",
+        "codename": "xa_an_thoi_dong",
+        "province_code": 79,
+        "lat": 10.5020916,
+        "lon": 106.8092139
+      },
+      {
+        "name": "Xã Thạnh An",
+        "code": 27676,
+        "division_type": "xã",
+        "codename": "xa_thanh_an",
+        "province_code": 79,
+        "lat": 10.5384704,
+        "lon": 106.9766016
+      }
+    ],
+    "lat": 10.7755254,
+    "lon": 106.7021047
+  }
+}
