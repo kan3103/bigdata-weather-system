@@ -209,6 +209,9 @@ __marimo__/
 #Data
 *.sqlite
 *.csv
+*.json
+*.png
+*.pt
 
 prediction/datasets/data_out/*
 !prediction/datasets/data_out/.keep

@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import os
 
 BASE_URL = "https://provinces.open-api.vn/api/v2"
 
@@ -61,6 +62,8 @@ def get_latlon(address: str):
     return lat, lon
 
 def add_latlon_to_json():
+    if os.path.exists(OUTPUT_FILE):
+        return
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
     for province_name, province_data in data.items():

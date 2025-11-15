@@ -7,6 +7,8 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - "2181:2181"
+    networks:
+      - spark-network
 
   kafka:
     image: confluentinc/cp-kafka:7.3.0
@@ -27,6 +29,8 @@ services:
       
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+    networks:
+      - spark-network
     # volumes:
     #   - ./kafka-data:/var/lib/kafka/data
   kafdrop:
@@ -35,8 +39,121 @@ services:
     depends_on:
       - kafka
     ports:
-      # Giao diện web sẽ chạy ở cổng 9000
       - "9000:9000"
     environment:
-      # Kafdrop sẽ kết nối vào kafka qua listener NỘI BỘ (INTERNAL)
       KAFKA_BROKERCONNECT: 'kafka:19092'
+    networks:
+      - spark-network
+  spark-master:
+    image: apache/spark:4.1.0-preview3-scala2.13-java21-python3-ubuntu
+    container_name: spark-master
+    hostname: spark-master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    networks:
+      - spark-network
+
+  spark-worker-1:
+    image: apache/spark:4.1.0-preview3-scala2.13-java21-python3-ubuntu
+    container_name: spark-worker-1
+    depends_on:
+      - spark-master
+    volumes:
+      - ../data_in:/data_in:ro
+      - ../data_out:/data_out
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    networks:
+      - spark-network
+
+  spark-worker-2:
+    image: apache/spark:4.1.0-preview3-scala2.13-java21-python3-ubuntu
+    container_name: spark-worker-2
+    depends_on:
+      - spark-master
+    volumes:
+      - ../data_in:/data_in:ro
+      - ../data_out:/data_out
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    networks:
+      - spark-network
+
+  spark-get-sample:
+    image: spark-get-sample
+    build:
+      context: ./prediction/preprocessing
+    container_name: spark-get-sample
+    depends_on:
+      - kafka
+      - spark-master
+      - spark-worker-1
+    user: "0:0"
+    environment:
+      SPARK_MASTER_URL: local[*]
+      KAFKA_BOOTSTRAP_SERVERS: kafka:19092
+      KAFKA_TOPIC: duLieuKhuVuc
+      KAFKA_STARTING_OFFSETS: earliest
+      OUTPUT_PATH: /data/sample_weather.json
+    volumes:
+      - ./prediction/datasets:/data
+      - ivy-cache:/opt/ivy-cache
+    command:
+      - /opt/spark/bin/spark-submit
+      - --master
+      - local[*]
+      - --packages
+      - org.apache.spark:spark-sql-kafka-0-10_2.13:4.1.0-preview3,org.apache.kafka:kafka-clients:3.9.1
+      - --conf
+      - spark.jars.ivy=/opt/ivy-cache
+      - --conf
+      - spark.driver.extraJavaOptions=-Duser.home=/home/spark
+      - --conf
+      - spark.executor.extraJavaOptions=-Duser.home=/home/spark
+      - --conf
+      - spark.sql.session.timeZone=UTC
+      - /app/getSample.py
+      - --sequence-length
+      - "24"
+      - --prediction-horizon
+      - "1"
+      - --output
+      - /data/sample_weather.json
+    restart: "no"
+    networks:
+      - spark-network
+
+  spark-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: spark-api
+    depends_on:
+      - kafka
+      - spark-master
+      - spark-worker-1
+    volumes:
+      - ivy-cache:/opt/ivy-cache
+    environment:
+      SPARK_MASTER_URL: spark://spark-master:7077
+      KAFKA_BOOTSTRAP_SERVERS: kafka:19092
+      KAFKA_TOPIC: duLieuKhuVuc
+      PYSPARK_SUBMIT_ARGS: >-
+        --packages org.apache.spark:spark-sql-kafka-0-10_2.13:4.1.0-preview3,org.apache.kafka:kafka-clients:3.7.0
+        --conf spark.jars.ivy=/opt/ivy-cache
+        --conf spark.driver.extraJavaOptions=-Duser.home=/opt
+        --conf spark.executor.extraJavaOptions=-Duser.home=/opt
+        pyspark-shell
+    # --- KẾT THÚC CẬP NHẬT ---
+    ports:
+      - "8000:8000"
+    networks:
+      - spark-network
+
+volumes:
+  ivy-cache:
+
+networks:
+  spark-network:
+    name: spark-network
+    driver: bridge
