@@ -15,3 +15,6 @@ class LSTMModel(nn.Module):
         out = out[:, -1, :]
         out = self.fc(out)
         return out
+    
+    def predict(self, x):
+        return self.forward(x)
