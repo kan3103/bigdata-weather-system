@@ -1,8 +1,10 @@
 import requests
 import json
 import time
+import os
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Dict
 
 # --- Import Kafka ---
 from address import add_latlon_to_json, get_address_api
@@ -11,7 +13,7 @@ from kafka.errors import KafkaTimeoutError
 
 # --- Config Kafka  ---
 KAFKA_BOOTSTRAP_SERVER = 'localhost:9092'
-KAFKA_TOPIC = 'du_lieu_khu_vuc'
+KAFKA_TOPIC = 'duLieuKhuVuc'
 
 # --- Config Files ---
 INPUT_FILE = "data/vietnam_addresses_with_latlon.json"
@@ -43,30 +45,90 @@ def send_data_to_kafka(producer, topic, data):
 
 
 def get_weather(lat: float, lon: float):
-    url = "https://api.open-meteo.com/v1/forecast"
-    params = {
-        "latitude": lat,
-        "longitude": lon,
-        "current_weather": True
-    }
     try:
-        r = requests.get(url, params=params, timeout=10)
-        r.raise_for_status()
-        data = r.json()
-        return data.get("current_weather", {})
+        url_current = "https://api.open-meteo.com/v1/forecast"
+        params_current = {
+            "latitude": lat,
+            "longitude": lon,
+            "current_weather": True,
+            "timezone": "Asia/Ho_Chi_Minh"
+        }
+        r_current = requests.get(url_current, params=params_current, timeout=10)
+        r_current.raise_for_status()
+        current = r_current.json().get("current_weather", {})
+
+        url_hourly = "https://api.open-meteo.com/v1/forecast"
+        params_hourly = {
+            "latitude": lat,
+            "longitude": lon,
+            "hourly": "relative_humidity_2m,pressure_msl,precipitation,rain,visibility",
+            "timezone": "Asia/Ho_Chi_Minh"
+        }
+        r_hourly = requests.get(url_hourly, params=params_hourly, timeout=10)
+        r_hourly.raise_for_status()
+        hourly = r_hourly.json().get("hourly", {})
+
+        if current and hourly:
+            current_time = current.get("time")
+            times = hourly.get("time", [])
+
+            # tìm index tương ứng với current time
+            if current_time in times:
+                idx = times.index(current_time)
+            else:
+                idx = -1  # fallback: lấy giá trị mới nhất
+
+            current["humidity"] = hourly.get("relative_humidity_2m", [None])[idx]
+            current["pressure"] = hourly.get("pressure_msl", [None])[idx]
+            current["precipitation"] = hourly.get("precipitation", [None])[idx]
+            current["rain"] = hourly.get("rain", [None])[idx]
+            current["visibility"] = hourly.get("visibility", [None])[idx]
+
+        if not current:
+            return None
+        return current
+
     except Exception as e:
         print(f"Lỗi khi lấy weather cho {lat},{lon}: {e}")
-        return {}
+        return None
 
-def fetch_weather_for_location(location):
+def fetch_weather_for_location(location, fallback_map):
     lat = location.get("lat")
     lon = location.get("lon")
     if lat is None or lon is None:
+        location["weathers"] = {}
         return location
     
-    location["weathers"] = get_weather(lat, lon) 
-    print(f"Lấy weather xong cho {location['addr']}")
+    weather_data = get_weather(lat, lon)
+    if weather_data:
+        location["weathers"] = weather_data
+        print(f"Lấy weather xong cho {location['addr']}")
+    else:
+        fallback = fallback_map.get(location["addr"])
+        if fallback:
+            location["weathers"] = fallback
+            print(f"Không có dữ liệu mới, dùng lại dữ liệu gần nhất cho {location['addr']}")
+        else:
+            location["weathers"] = {}
+            print(f"Bỏ qua {location['addr']} vì không có dữ liệu weather.")
     return location
+
+
+def _load_last_successful_weather() -> Dict[str, Dict]:
+    if not os.path.exists(OUTPUT_FILE):
+        return {}
+    try:
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            saved = json.load(f)
+    except Exception:
+        return {}
+
+    result: Dict[str, Dict] = {}
+    for entry in saved.get("addresses", []):
+        weather = entry.get("weathers")
+        if isinstance(weather, dict) and weather:
+            result[entry.get("addr")] = weather
+    return result
 
 def run_loop():
     producer = create_kafka_producer()
@@ -106,36 +168,51 @@ def run_loop():
 
         locations = {"timestamps": datetime.now().isoformat(), "addresses": []}
         max_threads = 10  
+        fallback_weather = _load_last_successful_weather()
         with ThreadPoolExecutor(max_workers=max_threads) as executor:
-            future_to_addr = {executor.submit(fetch_weather_for_location, addr): addr for addr in addresses}
+            future_to_addr = {
+                executor.submit(fetch_weather_for_location, addr, fallback_weather): addr
+                for addr in addresses
+            }
             for future in as_completed(future_to_addr):
                 location_with_weather = future.result()
                 locations["addresses"].append(location_with_weather)
 
-        locations["timestamps"] = datetime.now().isoformat()
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(locations, f, ensure_ascii=False, indent=4)
-        print(f"\nHoàn tất! Dữ liệu weather đã lưu vào: {OUTPUT_FILE}")
-        
         print("--- Bắt đầu gửi lên Kafka ---")
+        batch_timestamp = locations.get("timestamps") or datetime.utcnow().isoformat()
+
+        valid_addresses = []
         for loc_data in locations["addresses"]:
-            
-            current_weather_data = loc_data.get("weathers")
-            
+            current_weather_data = loc_data.get("weathers") or {}
             if not current_weather_data:
-                print(f"Bỏ qua {loc_data.get('addr')} vì không có dữ liệu weather.")
                 continue
+            valid_addresses.append(loc_data)
+
+            filtered_weather = {
+                key: value
+                for key, value in current_weather_data.items()
+                if key.lower() not in {"time", "timestamp"}
+            }
 
             message = {
                 "location_name": loc_data.get("addr"),
-                "level": loc_data.get("level"),
                 "latitude": loc_data.get("lat"),
                 "longitude": loc_data.get("lon"),
-                
-                **current_weather_data 
+                "time": batch_timestamp,
+                **filtered_weather
             }
-            
+
             send_data_to_kafka(producer, KAFKA_TOPIC, message)
+
+        locations["addresses"] = valid_addresses
+        locations["timestamps"] = datetime.now().isoformat()
+
+        if valid_addresses:
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                json.dump(locations, f, ensure_ascii=False, indent=4)
+            print(f"\nHoàn tất! Dữ liệu weather đã lưu vào: {OUTPUT_FILE}")
+        else:
+            print("\nKhông có dữ liệu hợp lệ để lưu hoặc gửi Kafka.")
 
         try:
             producer.flush(timeout=10) 
@@ -145,8 +222,10 @@ def run_loop():
         except Exception as e:
             print(f"LỖI: Không thể flush: {e}")
 
+        locations["addresses"] = valid_addresses
+
         print("\n--- Hoàn tất chu kỳ (mỗi 5p). ---")
-        time.sleep(5*60)
+        time.sleep(5 * 60)
 
 
 if __name__ == "__main__":

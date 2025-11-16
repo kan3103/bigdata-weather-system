@@ -46,6 +46,8 @@ def get_address_api():
     all_provinces = get_all_provinces()
     data_south = {}
 
+    if os.path.exists(INPUT_FILE_ADDRESS):
+        return
     for p in all_provinces:
         if any(keyword in p["name"] for keyword in southern_keywords):
             print(f"Đang lấy dữ liệu: {p['name']}")
@@ -87,7 +89,8 @@ def add_latlon_to_json():
     except FileNotFoundError:
         print(f"Lỗi: Không tìm thấy file {INPUT_FILE_ADDRESS}. Hãy chạy get_address_api() trước.")
         return
-
+    if os.path.exists(INPUT_FILE_ADDRESS):
+        return
     for province_name, province_data in data.items():
         print(f"\nXử lý {province_name}...")
         lat, lon = get_latlon(province_name)
@@ -253,8 +256,7 @@ if __name__ == "__main__":
     # 0. Tạo thư mục data nếu chưa có
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # 1. Chạy setup 1 lần để lấy tọa độ
-    # (Comment 2 dòng này lại sau khi chạy thành công lần đầu)
+
     get_address_api() 
     add_latlon_to_json()
     
