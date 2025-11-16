@@ -110,3 +110,24 @@ if __name__ == "__main__":
             "Install it with `pip install uvicorn`."
         )
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+@app.get("/weather/predict/{location_key}")
+def predict_weather(location_key: str, steps: int = Query(default=1, ge=1, le=48)) -> dict:
+    """Predict weather for a location.
+    
+    Args:
+        location_key: Location identifier
+        steps: Number of future steps to predict (1-48, default: 1)
+    """
+    record = weather_service.predict_weather(location_key, steps=steps)
+    if not record:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No weather data available for location key '{location_key}'",
+        )
+    if "error" in record:
+        raise HTTPException(
+            status_code=400,
+            detail=record["error"],
+        )
+    return record

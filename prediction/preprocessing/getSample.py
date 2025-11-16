@@ -107,6 +107,7 @@ def _load_full_history(
     parsed_df = spark_module._parse_kafka_dataframe(  # pylint: disable=protected-access
         kafka_df
     )
+    parsed_df = _drop_error_messages(parsed_df)
 
     base_columns = [
         "key",
@@ -135,6 +136,15 @@ def _load_full_history(
     )
 
     return df
+
+
+def _drop_error_messages(df: DataFrame) -> DataFrame:
+    """Remove rows whose payload contains the API error message."""
+    return df.filter(
+        ~F.lower(F.coalesce(F.col("payload").getItem("message"), F.lit(""))).contains(
+            "lỗi khi gọi api"
+        )
+    )
 
 
 def _build_sequences(

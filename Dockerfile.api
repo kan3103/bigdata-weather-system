@@ -8,7 +8,7 @@ COPY . /app
 
 RUN mkdir -p /opt/ivy-cache && chown -R spark:spark /opt/ivy-cache && \
     python3 -m pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir fastapi uvicorn pyspark
+    pip install --no-cache-dir fastapi uvicorn pyspark torch numpy pandas
 
 ENV PYTHONPATH=/app
 

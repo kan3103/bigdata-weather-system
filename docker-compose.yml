@@ -115,7 +115,7 @@ services:
       - /app/getSample.py
       - --sequence-length
       - "24"
-      - --prediction-horizon
+      - --forecast-length
       - "1"
       - --output
       - /data/sample_weather.json
