@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import os # <-- Thêm import os
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -141,6 +142,7 @@ def send_data_to_kafka(producer, topic, data):
         print(f"Lỗi khi gửi dữ liệu: {e}")
 
 def get_weather(lat: float, lon: float):
+    """Hàm lấy weather từ Open-Meteo"""
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
         "latitude": lat,
@@ -156,48 +158,57 @@ def get_weather(lat: float, lon: float):
         print(f"Lỗi khi lấy weather cho {lat},{lon}: {e}")
         return {}
 
-# ===== Hàm worker cho ThreadPool
 def fetch_weather_for_location(location):
+    """Hàm worker cho ThreadPool"""
     lat = location.get("lat")
     lon = location.get("lon")
     if lat is None or lon is None:
-        return location  # skip nếu không có tọa độ
-    location["weathers"] = get_weather(lat, lon)
+        return location
+    
+    location["weathers"] = get_weather(lat, lon) 
     print(f"Lấy weather xong cho {location['addr']}")
     return location
 
 def run_loop():
+    print("\n--- Khởi động vòng lặp Producer ---")
+    producer = create_kafka_producer()
+    if not producer:
+        print("Không thể kết nối Kafka. Thoát.")
+        return
+
     while True:
-        with open(INPUT_FILE, "r", encoding="utf-8") as f:
-            raw_data = json.load(f)
+        try:
+            with open(INPUT_FILE_LATLON, "r", encoding="utf-8") as f:
+                raw_data = json.load(f)
+        except FileNotFoundError:
+            print(f"Lỗi: Không tìm thấy file config {INPUT_FILE_LATLON}")
+            print("Vui lòng chạy 2 hàm setup (get_address_api, add_latlon_to_json) trước.")
+            time.sleep(60)
+            continue
 
-        # Chuyển dữ liệu thành danh sách địa điểm (lat/lon + addr)
         addresses = []
-
         for province_name, province_data in raw_data.items():
-            # Bậc 1: tỉnh
-            addr = {
+            addr_tinh = {
                 "addr": province_name,
                 "lat": province_data.get("lat"),
                 "lon": province_data.get("lon"),
-                "level": 1  # bậc 1 = tỉnh
+                "level": 1
             }
-            addresses.append(addr)
+            addresses.append(addr_tinh)
 
-            # Bậc 2: huyện/quận/thành phố thuộc tỉnh
             for ward in province_data.get("wards", []):
-                addr = {
+                addr_huyen = {
                     "addr": f"{ward['name']}, {province_name}",
                     "lat": ward.get("lat"),
                     "lon": ward.get("lon"),
-                    "level": 2  # bậc 2 = huyện/quận
+                    "level": 2
                 }
-                addresses.append(addr)
+                addresses.append(addr_huyen)
 
+        print(f"\n--- Bắt đầu chu kỳ cào dữ liệu ---")
         print(f"Tổng số địa điểm: {len(addresses)}")
 
         locations = {"timestamps": datetime.now().isoformat(), "addresses": []}
-
         max_threads = 10  
         with ThreadPoolExecutor(max_workers=max_threads) as executor:
             future_to_addr = {executor.submit(fetch_weather_for_location, addr): addr for addr in addresses}
@@ -205,13 +216,39 @@ def run_loop():
                 location_with_weather = future.result()
                 locations["addresses"].append(location_with_weather)
 
-        # Ghi kết quả ra file JSON
         locations["timestamps"] = datetime.now().isoformat()
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        with open(OUTPUT_FILE_WEATHER, "w", encoding="utf-8") as f:
             json.dump(locations, f, ensure_ascii=False, indent=4)
-
-        print(f"\n Hoàn tất! Dữ liệu weather đã lưu vào: {OUTPUT_FILE}")
+        print(f"\nHoàn tất! Dữ liệu weather đã lưu vào: {OUTPUT_FILE_WEATHER}")
         
+        print("--- Bắt đầu gửi lên Kafka ---")
+        for loc_data in locations["addresses"]:
+            
+            current_weather_data = loc_data.get("weathers")
+            
+            if not current_weather_data:
+                print(f"Bỏ qua {loc_data.get('addr')} vì không có dữ liệu weather.")
+                continue
+
+            message = {
+                "location_name": loc_data.get("addr"),
+                "level": loc_data.get("level"),
+                "latitude": loc_data.get("lat"),
+                "longitude": loc_data.get("lon"),
+                **current_weather_data 
+            }
+            
+            send_data_to_kafka(producer, KAFKA_TOPIC, message)
+
+        try:
+            producer.flush(timeout=10) 
+            print("Đã flush producer.")
+        except KafkaTimeoutError:
+            print("LỖI: Kafka flush timeout! Server bị treo. Bỏ qua chu kỳ này.")
+        except Exception as e:
+            print(f"LỖI: Không thể flush: {e}")
+
+        print("\n--- Hoàn tất chu kỳ. Ngủ 5 phút ---")
         time.sleep(5*60)
 
 
@@ -222,4 +259,6 @@ if __name__ == "__main__":
 
     get_address_api() 
     add_latlon_to_json()
+    
+    # 2. Chạy vòng lặp producer
     run_loop()

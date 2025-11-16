@@ -1,0 +1,2540 @@
+{
+    "timestamps": "2025-11-12T10:59:27.580490",
+    "addresses": [
+        {
+            "addr": "Phường Phú An, Thành phố Hồ Chí Minh",
+            "lat": 11.0486457,
+            "lon": 106.6020209,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thủ Dầu Một, Thành phố Hồ Chí Minh",
+            "lat": 10.9686364,
+            "lon": 106.6640302,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Long Hòa, Thành phố Hồ Chí Minh",
+            "lat": 11.3274937,
+            "lon": 106.5090895,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.1,
+                "windspeed": 2.3,
+                "winddirection": 141,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Thanh An, Thành phố Hồ Chí Minh",
+            "lat": 11.2479372,
+            "lon": 106.4314551,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.2,
+                "windspeed": 3.4,
+                "winddirection": 122,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Minh Thạnh, Thành phố Hồ Chí Minh",
+            "lat": 11.4438332,
+            "lon": 106.4655524,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.1,
+                "windspeed": 2.3,
+                "winddirection": 141,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Chánh Hiệp, Thành phố Hồ Chí Minh",
+            "lat": 11.0186207,
+            "lon": 106.64171,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Thành phố Hồ Chí Minh",
+            "lat": 10.7755254,
+            "lon": 106.7021047,
+            "level": 1,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Lợi, Thành phố Hồ Chí Minh",
+            "lat": 10.9877112,
+            "lon": 106.6805845,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Dầu Tiếng, Thành phố Hồ Chí Minh",
+            "lat": 11.3307682,
+            "lon": 106.4030265,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.1,
+                "windspeed": 3.9,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Bình Dương, Thành phố Hồ Chí Minh",
+            "lat": 11.0525935,
+            "lon": 106.6891287,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Bến Cát, Thành phố Hồ Chí Minh",
+            "lat": 11.2043317,
+            "lon": 106.6154659,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 1.8,
+                "winddirection": 127,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Long Nguyên, Thành phố Hồ Chí Minh",
+            "lat": 11.1680146,
+            "lon": 106.5619764,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 3.1,
+                "winddirection": 111,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Trừ Văn Thố, Thành phố Hồ Chí Minh",
+            "lat": 11.3399962,
+            "lon": 106.5929507,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 1.8,
+                "winddirection": 127,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tây Nam, Thành phố Hồ Chí Minh",
+            "lat": 11.131335,
+            "lon": 106.5313116,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 3.1,
+                "winddirection": 111,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Chánh Phú Hòa, Thành phố Hồ Chí Minh",
+            "lat": 11.1882823,
+            "lon": 106.6687875,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 1.8,
+                "winddirection": 127,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Phước Thành, Thành phố Hồ Chí Minh",
+            "lat": 11.3851629,
+            "lon": 106.7515368,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 1.6,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bàu Bàng, Thành phố Hồ Chí Minh",
+            "lat": 11.2734666,
+            "lon": 106.6057271,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 1.8,
+                "winddirection": 127,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thới Hòa, Thành phố Hồ Chí Minh",
+            "lat": 11.1038232,
+            "lon": 106.6272696,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Phú Giáo, Thành phố Hồ Chí Minh",
+            "lat": 11.3071441,
+            "lon": 106.8607982,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 1.6,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Hòa Lợi, Thành phố Hồ Chí Minh",
+            "lat": 11.0829247,
+            "lon": 106.6559116,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã An Long, Thành phố Hồ Chí Minh",
+            "lat": 11.3260136,
+            "lon": 106.6896139,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 1.6,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Vĩnh Tân, Thành phố Hồ Chí Minh",
+            "lat": 11.1378977,
+            "lon": 106.6989786,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tân Uyên, Thành phố Hồ Chí Minh",
+            "lat": 11.0914515,
+            "lon": 106.7990398,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Bắc Tân Uyên, Thành phố Hồ Chí Minh",
+            "lat": 11.1711104,
+            "lon": 106.8634945,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 1.9,
+                "winddirection": 112,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Cơ, Thành phố Hồ Chí Minh",
+            "lat": 11.1524742,
+            "lon": 106.7438477,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tân Hiệp, Thành phố Hồ Chí Minh",
+            "lat": 11.061716,
+            "lon": 106.7431668,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Thường Tân, Thành phố Hồ Chí Minh",
+            "lat": 11.1048495,
+            "lon": 106.9194354,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 1.9,
+                "winddirection": 112,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Dĩ An, Thành phố Hồ Chí Minh",
+            "lat": 10.8975202,
+            "lon": 106.7542156,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Phước Hòa, Thành phố Hồ Chí Minh",
+            "lat": 11.2535365,
+            "lon": 106.7735395,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 1.6,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Khánh, Thành phố Hồ Chí Minh",
+            "lat": 10.999374,
+            "lon": 106.7406558,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tân Đông Hiệp, Thành phố Hồ Chí Minh",
+            "lat": 10.9437817,
+            "lon": 106.7594929,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Đông Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.8928487,
+            "lon": 106.79832,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Lái Thiêu, Thành phố Hồ Chí Minh",
+            "lat": 10.9045161,
+            "lon": 106.6999877,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Bình Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.905052,
+            "lon": 106.7274208,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thuận Giao, Thành phố Hồ Chí Minh",
+            "lat": 10.9622528,
+            "lon": 106.7090419,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tam Thắng, Thành phố Hồ Chí Minh",
+            "lat": 10.3686942,
+            "lon": 107.1009025,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường An Phú, Thành phố Hồ Chí Minh",
+            "lat": 10.9586655,
+            "lon": 106.737088,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thuận An, Thành phố Hồ Chí Minh",
+            "lat": 10.9423711,
+            "lon": 106.6837106,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Vũng Tàu, Thành phố Hồ Chí Minh",
+            "lat": 10.3537998,
+            "lon": 107.0743635,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường  Rạch Dừa, Thành phố Hồ Chí Minh",
+            "lat": 10.3909975,
+            "lon": 107.1090865,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Phước Thắng, Thành phố Hồ Chí Minh",
+            "lat": 10.4252072,
+            "lon": 107.1671096,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Long Hương, Thành phố Hồ Chí Minh",
+            "lat": 10.5070464,
+            "lon": 107.1476608,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Long Sơn, Thành phố Hồ Chí Minh",
+            "lat": 10.4487271,
+            "lon": 107.1028066,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Bà Rịa, Thành phố Hồ Chí Minh",
+            "lat": 10.4948224,
+            "lon": 107.1849886,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Ngãi Giao, Thành phố Hồ Chí Minh",
+            "lat": 10.6471352,
+            "lon": 107.2457958,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 2.1,
+                "winddirection": 121,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tam Long, Thành phố Hồ Chí Minh",
+            "lat": 10.5289996,
+            "lon": 107.2147604,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Châu Đức, Thành phố Hồ Chí Minh",
+            "lat": 10.7278326,
+            "lon": 107.2134175,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.2,
+                "windspeed": 1.6,
+                "winddirection": 153,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Kim Long, Thành phố Hồ Chí Minh",
+            "lat": 10.6991979,
+            "lon": 107.2455432,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.2,
+                "windspeed": 1.6,
+                "winddirection": 153,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Xuân Sơn, Thành phố Hồ Chí Minh",
+            "lat": 10.6172513,
+            "lon": 107.3324779,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 27.9,
+                "windspeed": 2.0,
+                "winddirection": 135,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bình Giã, Thành phố Hồ Chí Minh",
+            "lat": 10.6791217,
+            "lon": 107.287064,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 2.1,
+                "winddirection": 121,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Nghĩa Thành, Thành phố Hồ Chí Minh",
+            "lat": 10.5832288,
+            "lon": 107.2636989,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.1,
+                "winddirection": 121,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Hồ Tràm, Thành phố Hồ Chí Minh",
+            "lat": 10.5250085,
+            "lon": 107.396897,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.3,
+                "winddirection": 103,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Xuyên Mộc, Thành phố Hồ Chí Minh",
+            "lat": 10.5498373,
+            "lon": 107.4597728,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.3,
+                "winddirection": 103,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bàu Lâm, Thành phố Hồ Chí Minh",
+            "lat": 10.737198,
+            "lon": 107.4182504,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 27.7,
+                "windspeed": 2.1,
+                "winddirection": 149,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Long Hải, Thành phố Hồ Chí Minh",
+            "lat": 10.4039451,
+            "lon": 107.2307547,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.3,
+                "winddirection": 103,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Hòa Hiệp, Thành phố Hồ Chí Minh",
+            "lat": 10.7080104,
+            "lon": 107.4954911,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 2.7,
+                "winddirection": 157,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Hòa Hội, Thành phố Hồ Chí Minh",
+            "lat": 10.6267656,
+            "lon": 107.4259831,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.2,
+                "windspeed": 2.0,
+                "winddirection": 135,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bình Châu, Thành phố Hồ Chí Minh",
+            "lat": 10.5787466,
+            "lon": 107.5399664,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.1,
+                "winddirection": 144,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Long Điền, Thành phố Hồ Chí Minh",
+            "lat": 10.4851113,
+            "lon": 107.2119218,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Đất Đỏ, Thành phố Hồ Chí Minh",
+            "lat": 10.4899209,
+            "lon": 107.2696605,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.4,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Phước Hải, Thành phố Hồ Chí Minh",
+            "lat": 10.4257988,
+            "lon": 107.2921241,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.3,
+                "winddirection": 103,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Mỹ, Thành phố Hồ Chí Minh",
+            "lat": 10.6019767,
+            "lon": 107.0521099,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.1,
+                "winddirection": 121,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Phước, Thành phố Hồ Chí Minh",
+            "lat": 10.5280288,
+            "lon": 107.0532037,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Tân Hải, Thành phố Hồ Chí Minh",
+            "lat": 10.5158702,
+            "lon": 107.1079712,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.6,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Sài Gòn, Thành phố Hồ Chí Minh",
+            "lat": 10.7791966,
+            "lon": 106.6999282,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Đặc khu Côn Đảo, Thành phố Hồ Chí Minh",
+            "lat": 8.6855081,
+            "lon": 106.6067254,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.2,
+                "windspeed": 10.1,
+                "winddirection": 96,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Phường Tân Thành, Thành phố Hồ Chí Minh",
+            "lat": 10.6657629,
+            "lon": 107.136983,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 1.5,
+                "winddirection": 135,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bến Thành, Thành phố Hồ Chí Minh",
+            "lat": 10.7703806,
+            "lon": 106.6951066,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Châu Pha, Thành phố Hồ Chí Minh",
+            "lat": 10.5807114,
+            "lon": 107.1333808,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.2,
+                "windspeed": 1.5,
+                "winddirection": 135,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Định, Thành phố Hồ Chí Minh",
+            "lat": 10.790563,
+            "lon": 106.6944598,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh",
+            "lat": 10.7629746,
+            "lon": 106.6910898,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường An Phú Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.8609713,
+            "lon": 106.6917863,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tân Thới Hiệp, Thành phố Hồ Chí Minh",
+            "lat": 10.8753839,
+            "lon": 106.641588,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thới An, Thành phố Hồ Chí Minh",
+            "lat": 10.8788314,
+            "lon": 106.6634466,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Trung Mỹ Tây, Thành phố Hồ Chí Minh",
+            "lat": 10.8603264,
+            "lon": 106.621309,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Hiệp Bình, Thành phố Hồ Chí Minh",
+            "lat": 10.8496138,
+            "lon": 106.7191368,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tam Bình, Thành phố Hồ Chí Minh",
+            "lat": 10.8697749,
+            "lon": 106.7345736,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh",
+            "lat": 10.8373502,
+            "lon": 106.6214158,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Thủ Đức, Thành phố Hồ Chí Minh",
+            "lat": 10.840834,
+            "lon": 106.7583039,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Linh Xuân, Thành phố Hồ Chí Minh",
+            "lat": 10.8670257,
+            "lon": 106.7814788,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Long Bình, Thành phố Hồ Chí Minh",
+            "lat": 10.8593853,
+            "lon": 106.8301514,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 2.3,
+                "winddirection": 108,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Long Phước, Thành phố Hồ Chí Minh",
+            "lat": 10.8124271,
+            "lon": 106.8542062,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 2.3,
+                "winddirection": 108,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phước Long, Thành phố Hồ Chí Minh",
+            "lat": 10.8169928,
+            "lon": 106.7742368,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tăng Nhơn Phú, Thành phố Hồ Chí Minh",
+            "lat": 10.8446206,
+            "lon": 106.7868124,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường An Hội Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.8499216,
+            "lon": 106.665137,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Long Trường, Thành phố Hồ Chí Minh",
+            "lat": 10.793879,
+            "lon": 106.8127496,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 2.3,
+                "winddirection": 108,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Thông Tây Hội, Thành phố Hồ Chí Minh",
+            "lat": 10.8420837,
+            "lon": 106.6542494,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Gò Vấp, Thành phố Hồ Chí Minh",
+            "lat": 10.8381857,
+            "lon": 106.6752201,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường An Hội Tây, Thành phố Hồ Chí Minh",
+            "lat": 10.8420405,
+            "lon": 106.6403664,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường  An Nhơn, Thành phố Hồ Chí Minh",
+            "lat": 10.8360989,
+            "lon": 106.6854693,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Hạnh Thông, Thành phố Hồ Chí Minh",
+            "lat": 10.8202873,
+            "lon": 106.6832189,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Bình Quới, Thành phố Hồ Chí Minh",
+            "lat": 10.823128,
+            "lon": 106.7351397,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Bình Thạnh, Thành phố Hồ Chí Minh",
+            "lat": 10.808976,
+            "lon": 106.7069818,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Lợi Trung, Thành phố Hồ Chí Minh",
+            "lat": 10.8225629,
+            "lon": 106.7027456,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Gia Định, Thành phố Hồ Chí Minh",
+            "lat": 10.8008668,
+            "lon": 106.6971226,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bảy Hiền, Thành phố Hồ Chí Minh",
+            "lat": 10.79382,
+            "lon": 106.6489163,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Sơn Nhất, Thành phố Hồ Chí Minh",
+            "lat": 10.7979113,
+            "lon": 106.658574,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.7821154,
+            "lon": 106.6547199,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Thạnh Mỹ Tây, Thành phố Hồ Chí Minh",
+            "lat": 10.798645,
+            "lon": 106.7189727,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Sơn Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.7971454,
+            "lon": 106.6646052,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Bình, Thành phố Hồ Chí Minh",
+            "lat": 10.7991337,
+            "lon": 106.6414717,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Sơn, Thành phố Hồ Chí Minh",
+            "lat": 10.8208443,
+            "lon": 106.6371457,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tây Thạnh, Thành phố Hồ Chí Minh",
+            "lat": 10.8138716,
+            "lon": 106.6199712,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh",
+            "lat": 10.8013791,
+            "lon": 106.6246876,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Thọ Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.7892224,
+            "lon": 106.6271827,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Phú, Thành phố Hồ Chí Minh",
+            "lat": 10.7774899,
+            "lon": 106.6395211,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Thạnh, Thành phố Hồ Chí Minh",
+            "lat": 10.7720811,
+            "lon": 106.6268036,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Cầu Kiệu, Thành phố Hồ Chí Minh",
+            "lat": 10.7990135,
+            "lon": 106.6853524,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Nhuận, Thành phố Hồ Chí Minh",
+            "lat": 10.7934084,
+            "lon": 106.6732121,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Đức Nhuận, Thành phố Hồ Chí Minh",
+            "lat": 10.8056416,
+            "lon": 106.6784848,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Trưng, Thành phố Hồ Chí Minh",
+            "lat": 10.7965919,
+            "lon": 106.7642319,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Cát Lái, Thành phố Hồ Chí Minh",
+            "lat": 10.7684731,
+            "lon": 106.7704233,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Xuân Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.7825113,
+            "lon": 106.6895281,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường An Khánh, Thành phố Hồ Chí Minh",
+            "lat": 10.7886645,
+            "lon": 106.730302,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Nhiêu Lộc, Thành phố Hồ Chí Minh",
+            "lat": 10.7856371,
+            "lon": 106.6750721,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Diên Hồng, Thành phố Hồ Chí Minh",
+            "lat": 10.7699844,
+            "lon": 106.6618762,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Hòa Hưng, Thành phố Hồ Chí Minh",
+            "lat": 10.7768505,
+            "lon": 106.6705509,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Hòa Bình, Thành phố Hồ Chí Minh",
+            "lat": 10.769777,
+            "lon": 106.6443804,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bàn Cờ, Thành phố Hồ Chí Minh",
+            "lat": 10.7711767,
+            "lon": 106.683061,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Vườn Lài, Thành phố Hồ Chí Minh",
+            "lat": 10.765753,
+            "lon": 106.6729198,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Thọ, Thành phố Hồ Chí Minh",
+            "lat": 10.7658696,
+            "lon": 106.6546226,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Thới, Thành phố Hồ Chí Minh",
+            "lat": 10.7629692,
+            "lon": 106.6423264,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Minh Phụng, Thành phố Hồ Chí Minh",
+            "lat": 10.7566993,
+            "lon": 106.6465801,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Xóm Chiếu, Thành phố Hồ Chí Minh",
+            "lat": 10.7603865,
+            "lon": 106.7117133,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Khánh Hội, Thành phố Hồ Chí Minh",
+            "lat": 10.7592587,
+            "lon": 106.7044652,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Chợ Quán, Thành phố Hồ Chí Minh",
+            "lat": 10.7581094,
+            "lon": 106.6807105,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Vĩnh Hội, Thành phố Hồ Chí Minh",
+            "lat": 10.7558328,
+            "lon": 106.6955128,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Chợ Lớn, Thành phố Hồ Chí Minh",
+            "lat": 10.7518172,
+            "lon": 106.658971,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường An Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.7548937,
+            "lon": 106.6716249,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Lâm, Thành phố Hồ Chí Minh",
+            "lat": 10.7538527,
+            "lon": 106.6314752,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Tây, Thành phố Hồ Chí Minh",
+            "lat": 10.7494898,
+            "lon": 106.6475693,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Phú, Thành phố Hồ Chí Minh",
+            "lat": 10.7385058,
+            "lon": 106.6274357,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Tiên, Thành phố Hồ Chí Minh",
+            "lat": 10.7429821,
+            "lon": 106.6433709,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Chánh Hưng, Thành phố Hồ Chí Minh",
+            "lat": 10.7423849,
+            "lon": 106.6779544,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.7283105,
+            "lon": 106.6379651,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Định, Thành phố Hồ Chí Minh",
+            "lat": 10.724618,
+            "lon": 106.6298796,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh",
+            "lat": 10.7980714,
+            "lon": 106.60323,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Tạo, Thành phố Hồ Chí Minh",
+            "lat": 10.747748,
+            "lon": 106.5860503,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Tân, Thành phố Hồ Chí Minh",
+            "lat": 10.79868,
+            "lon": 106.5907696,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Bình Trị Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.7673774,
+            "lon": 106.607458,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường An Lạc, Thành phố Hồ Chí Minh",
+            "lat": 10.7381994,
+            "lon": 106.6148874,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Thuận, Thành phố Hồ Chí Minh",
+            "lat": 10.7504259,
+            "lon": 106.7315099,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Phú Thuận, Thành phố Hồ Chí Minh",
+            "lat": 10.7238594,
+            "lon": 106.7444926,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Hưng, Thành phố Hồ Chí Minh",
+            "lat": 10.7394166,
+            "lon": 106.7038732,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Phường Tân Mỹ, Thành phố Hồ Chí Minh",
+            "lat": 10.722503,
+            "lon": 106.7283083,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Tân An Hội, Thành phố Hồ Chí Minh",
+            "lat": 10.970179,
+            "lon": 106.4637699,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã An Nhơn Tây, Thành phố Hồ Chí Minh",
+            "lat": 11.101795,
+            "lon": 106.4813178,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 3.1,
+                "winddirection": 111,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Nhuận Đức, Thành phố Hồ Chí Minh",
+            "lat": 11.0295786,
+            "lon": 106.4986658,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Phú Hòa Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.9887911,
+            "lon": 106.5562008,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Thái Mỹ, Thành phố Hồ Chí Minh",
+            "lat": 11.03753,
+            "lon": 106.4353672,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bình Mỹ, Thành phố Hồ Chí Minh",
+            "lat": 10.9801665,
+            "lon": 106.6101461,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Củ Chi, Thành phố Hồ Chí Minh",
+            "lat": 10.9617664,
+            "lon": 106.5335564,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.2,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Đông Thạnh, Thành phố Hồ Chí Minh",
+            "lat": 10.8981946,
+            "lon": 106.6361448,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Hóc Môn, Thành phố Hồ Chí Minh",
+            "lat": 10.8860463,
+            "lon": 106.5927134,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Xuân Thới Sơn, Thành phố Hồ Chí Minh",
+            "lat": 10.887924,
+            "lon": 106.5569321,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Tân Nhựt, Thành phố Hồ Chí Minh",
+            "lat": 10.7079037,
+            "lon": 106.5675867,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.2,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bà Điểm, Thành phố Hồ Chí Minh",
+            "lat": 10.8402684,
+            "lon": 106.5990908,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.8,
+                "windspeed": 3.0,
+                "winddirection": 104,
+                "is_day": 1,
+                "weathercode": 95
+            }
+        },
+        {
+            "addr": "Xã Bình Lợi, Thành phố Hồ Chí Minh",
+            "lat": 10.7533121,
+            "lon": 106.5131428,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.2,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Tân Vĩnh Lộc, Thành phố Hồ Chí Minh",
+            "lat": 10.7908707,
+            "lon": 106.5447791,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Vĩnh Lộc, Thành phố Hồ Chí Minh",
+            "lat": 10.8265123,
+            "lon": 106.5518034,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bình Hưng, Thành phố Hồ Chí Minh",
+            "lat": 10.705303,
+            "lon": 106.6525639,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Bình Chánh, Thành phố Hồ Chí Minh",
+            "lat": 10.6638681,
+            "lon": 106.5703407,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.1,
+                "windspeed": 4.0,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Hưng Long, Thành phố Hồ Chí Minh",
+            "lat": 10.6591544,
+            "lon": 106.645572,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.2,
+                "windspeed": 4.0,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Hiệp Phước, Thành phố Hồ Chí Minh",
+            "lat": 10.6351242,
+            "lon": 106.7510876,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.9,
+                "windspeed": 4.0,
+                "winddirection": 117,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Nhà Bè, Thành phố Hồ Chí Minh",
+            "lat": 10.695397,
+            "lon": 106.7148191,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 29.0,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Cần Giờ, Thành phố Hồ Chí Minh",
+            "lat": 10.4147541,
+            "lon": 106.9714754,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 3.9,
+                "winddirection": 112,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã Bình Khánh, Thành phố Hồ Chí Minh",
+            "lat": 10.5958922,
+            "lon": 106.8790677,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.5,
+                "windspeed": 3.5,
+                "winddirection": 114,
+                "is_day": 1,
+                "weathercode": 80
+            }
+        },
+        {
+            "addr": "Xã Thạnh An, Thành phố Hồ Chí Minh",
+            "lat": 10.5384704,
+            "lon": 106.9766016,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.4,
+                "windspeed": 2.6,
+                "winddirection": 124,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        },
+        {
+            "addr": "Xã An Thới Đông, Thành phố Hồ Chí Minh",
+            "lat": 10.5020916,
+            "lon": 106.8092139,
+            "level": 2,
+            "weathers": {
+                "time": "2025-11-12T03:45",
+                "interval": 900,
+                "temperature": 28.7,
+                "windspeed": 4.6,
+                "winddirection": 108,
+                "is_day": 1,
+                "weathercode": 3
+            }
+        }
+    ]
+}
