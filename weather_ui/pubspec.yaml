@@ -47,6 +47,7 @@ dependencies:
   flutter_map_heatmap: ^0.0.8
   flutter_dotenv: ^6.0.0
   latlong2: ^0.9.1
+  fl_chart: ^1.1.1
 
 
 dev_dependencies:
